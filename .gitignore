@@ -39,4 +39,10 @@ Thumbs.db
 
 # Generated output files
 *_归一化.xlsx
+*_normalized_results.xlsx
+*_comparison.png
+*_feature_importance.png
+*.png
+example*.xlsx
+example*.png
 __pycache__/
