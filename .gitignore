@@ -39,3 +39,4 @@ Thumbs.db
 
 # Generated output files
 *_归一化.xlsx
+__pycache__/
