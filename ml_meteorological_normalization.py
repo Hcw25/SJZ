@@ -89,7 +89,8 @@ class MLMeteorologicalNormalization:
             if col in self.df.columns:
                 self.df[col] = pd.to_numeric(self.df[col], errors='coerce')
         
-        # 添加季节特征
+        # 添加季节特征（北半球）
+        # Add seasonal features (Northern Hemisphere)
         if 'month' in self.df.columns:
             self.df['season'] = self.df['month'].map({
                 12: 0, 1: 0, 2: 0,  # 冬季 Winter
